@@ -3,33 +3,34 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Седона</title>
 </head>
 
 <body class="page__body">
   <header class="main-header">
-    <a class="main-header__logo">
-      <img class="main-header__logo-image" src="img/logotype-phone.svg" width="185px" height="96px"
+    <a class="main-header__logo" href="index.html">
+      <img class="main-header__logo-image" src="img/logotype-phone.svg" width="185" height="96"
         alt="логотип Седона">
     </a>
     <nav class="main-nav">
       <button class="main-nav__toogle" type="button">
-        <span class="vissualy-hidden">Открыть меню</span>
+        <span class="visualy-hidden">Открыть меню</span>
       </button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
-            <a href="#">
+            <a href="index.html">
               Главная
             </a>
           </li>
           <li class="site-lisy__item site-list__item--current">
-            <a href="photo-video.html">
+            <a href="catalog.html">
               Фото и видео
             </a>
           </li>
           <li class="site-lisy__item">
-            <a href="photo-video.html">
+            <a href="form.html">
               Форма отзыва
             </a>
           </li>
@@ -48,17 +49,38 @@
         Фото и видео
       </h1>
       <p class="video-photo__slogan">
-        Не можете решиться на путешествие из-за курса?<br>Фотографии помогут вам забыть о политике и экономике.
+        Не можете решиться на путешествие<br> из-за курса? Фотографии помогут вам<br> забыть о политике и экономике.
       </p>
     </section>
     <section>
       <ul class="gallery">
         <li class="gallery__item labelled-image">
-          <img class="labbelled-image__image" src="img/" width="1200px" height="400px" alt="Закат Седоны">
+          <img class="labbelled-image__image" src="images/sunset.jpg" width="280" height="280" alt="Закат Седоны">
           <h2 class="labelled-image__title">Неродные просторы</h2>
           <p class="labelled-image__author">Автор фото: Борис</p>
-          <img class="labbeled-image__likes-icon" src="img/" width="23px" height="21px" alt="Лайк">
+          <img class="labbeled-image__likes-icon" src="images/like.svg" width="23" height="21" alt="Лайк">
           <p class="labbeled-image__likes-counter">1350</p>
+        </li>
+        <li class="gallery__item labelled-image">
+          <img class="labbelled-image__image" src="images/flower.jpg" width="280" height="280" alt="Пустынный цветок">
+          <h2 class="labelled-image__title">Местная растительность</h2>
+          <p class="labelled-image__author">Автор фото: Сергей</p>
+          <img class="labbeled-image__likes-icon" src="images/like.svg" width="23" height="21" alt="Лайк">
+          <p class="labbeled-image__likes-counter">143</p>
+        </li>
+        <li class="gallery__item labelled-image">
+          <img class="labbelled-image__image" src="images/row.jpg" width="280" height="280" alt="Дорога">
+          <h2 class="labelled-image__title">Дорога на север</h2>
+          <p class="labelled-image__author">Автор фото: Петр</p>
+          <img class="labbeled-image__likes-icon" src="images/like.svg" width="23" height="21" alt="Лайк">
+          <p class="labbeled-image__likes-counter">96</p>
+        </li>
+        <li class="gallery__item labelled-image">
+          <img class="labbelled-image__image" src="images/bridge.jpg" width="280" height="280" alt="Мост дьявола">
+          <h2 class="labelled-image__title">Мост дьявола</h2>
+          <p class="labelled-image__author">Автор фото: Антон</p>
+          <img class="labbeled-image__likes-icon" src="images/like.svg" width="23" height="21" alt="Лайк">
+          <p class="labbeled-image__likes-counter">254</p>
         </li>
       </ul>
     </section>
@@ -71,7 +93,8 @@
       </p>
     </section>
     <section class="video">
-      <img class="video-info" src="img/" width="800px" height="500px" alt="Видео про Седону">
+      <h2 class="visually-hidden">Видео про Седону</h2>
+      <img class="video-info" src="images/video.jpg" width="280" height="177" alt="Видео про Седону">
     </section>
   </main>
   <footer class="main-footer">
