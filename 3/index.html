@@ -3,121 +3,124 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Седона</title>
   <base href="https://htmlacademy-adaptive.github.io/1734813-sedona-28/3/">
 </head>
 
 <body class="page__body">
   <header class="main-header">
-    <a class="main-header__logo">
-      <img class="main-header__logo-image" src="img/logotype-phone.svg" width="185px" height="96px"
-        alt="логотип Седона">
+    <a class="main-header__logo" href="index.html">
+      <img class="main-header__logo-image" src="img/logotype-phone.svg" width="185" height="96" alt="логотип Седона">
     </a>
     <nav class="main-nav">
       <button class="main-nav__toogle" type="button">
-        <span class="vissualy-hidden">Открыть меню</span>
+        <span class="visualy-hidden">Открыть меню</span>
       </button>
       <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--current">
-            <a href="#">
+        <ul class="main-nav__menu site-menu">
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="index.html">
               Главная
             </a>
           </li>
-          <li class="site-lisy__item">
-            <a href="photo-video.html">
+          <li class="site-menu__item site-menu__item--current">
+            <a class="site-menu__link" href="catalog.html">
               Фото и видео
             </a>
           </li>
-          <li class="site-lisy__item">
-            <a href="photo-video.html">
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="form.html">
               Форма отзыва
             </a>
           </li>
-          <li class="site-lisy__item">
-            <a href="photo-video.html">
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="academy.html">
               HTMl Academy
             </a>
+          </li>
+          <li class="site-menu__item">
+            <img class="site-menu__background" src="../images/back-index.jpg" width="900" height="390" alt="Задний фон седоны">
           </li>
         </ul>
       </div>
     </nav>
   </header>
   <main class="main-container">
-    <h1 class="vissualy-hidden">Седона - "По истинне уютный городок"
+    <h1 class="visualy-hidden">Седона - "По истине уютный городок"
     </h1>
-    <section class="information">
-      <div class="information__wrapper">
-        <h2 class="infromation_header">Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</h2>
-        <p class="infromation_slogan">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+    <section>
+      <div class="information">
+        <h2 class="infromation__header">Седона — небольшой городок в Аризоне,заслуживающий большего!</h2>
+        <p class="infromation__slogan">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </div>
-      <ul class="description">
+      <ul>
         <li class="advantages">
           <div class="advantages__wrapper">
             <h3 class="advantages__title">Настоящий городок</h3>
-            <p class="advantages__info">Седона — не аттракцион для<br> туристов, там течёт своя<br>
+            <p class="advantages__info">Седона — не аттракцион для туристов, там течёт своя
               жизнь</p>
           </div>
-          <img class="advantages__image__town" src="images/sedona-city.jpg" width="800px" height="256px"
+          <img class="advantages--image__town" src="images/sedona-city.jpg" width="520" height="260"
             alt="Архитектура Седоны">
         </li>
         <li class="conditions">
           <h3 class="conditions__title">Жильё</h3>
-          <p class="conditions__info conditions__info--housing">Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в
+          <p class="conditions__housing">Рекомендуем пожить в настоящем мотеле, всё как в
             кино!
           </p>
         </li>
         <li class="conditions">
           <h3 class="conditions__title">Еда</h3>
-          <p class="conditions__info conditions__info--food">Всегда заказывайте<br> топовый фирменный бургер,<br> вы не
+          <p class="conditions__food">Всегда заказывайте топовый фирменный бургер, вы не
             разочаруетесь!
           </p>
         </li>
         <li class="conditions">
           <h3 class="conditions__title">Сувениры</h3>
-          <p class="conditions__info conditions__info--present">Не только китайского,<br> но и настоящего местного<br>
+          <p class="conditions__present">Не только китайского, но и настоящего местного
             производства!</p>
         </li>
         <li class="advantages">
-          <img class="advantages__image__canyon" src="images/photo-canyon.jpg" width="800" height="256px"
+          <img class="advantages__image__canyon" src="images/photo-canyon.jpg" width="520" height="260"
             alt="Каньон Седоны">
           <div class="advantages__wrapper">
-            <h3 class="advantages__title">Там есть<br>мост дьявола</h3>
-            <p class="advantages__info">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется
+            <h3 class="advantages__title">Там естьмост дьявола</h3>
+            <p class="advantages__info">Да, по нему можно пройти! Если вы осмелитесь, разумеется
             </p>
           </div>
         </li>
+        <li class="conditions">
+          <h3 class="conditions__title">Небольшая площадь</h3>
+          <p class="conditions__info">Все достопримечательности находятся очень близко</p>
+        </li>
+        <li class="conditions">
+          <h3 class="onditions__title">Красивая дорога</h3>
+          <p class="conditions__info">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+        </li>
+        <li class="conditions">
+          <h3 class="onditions__title">Мало туристов</h3>
+          <p class="conditions__info">Большинство едет в Гранд Каньон и толпится там</p>
+        </li>
       </ul>
-      <li class="conditions">
-        <h3 class="conditions__title">Небольшая площадь</h3>
-        <p class="conditions__info">Все достопримечательности<br> находятся очень близко</p>
-      </li>
-      <li class="conditions">
-        <h3 class="onditions__title">Красивая дорога</h3>
-        <p class="conditions__info">Ехать в Седону из Лас-Вегаса<br> совсем не скучно!</p>
-      </li>
-      <li class="conditions">
-        <h3 class="onditions__title">Мало туристов</h3>
-        <p class="conditions__info">Большинство едет в Гранд<br> Каньон и толпится там</p>
-      </li>
     </section>
     <section class="interested">
       <h3 class="interested__title">Заинтересовались?</h3>
-      <p class="interested__info">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц
+      <p class="interested__info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц
         в Седоне
       </p>
-      <a class="search__hotel" href="#">Найти гостниницу</a>
+      <a class="interested__hotel" href="#">Найти гостниницу</a>
+      <a class="interested__map">
+        <img class="interested__map-image" src="img/map-sedona.svg" width="320" height="350"
+          alt="Место нахождения Седоны">
+      </a>
     </section>
-    <a class="main-footer__map">
-      <img class="main-footer__map-image" src="img/map-sedona.svg" width="1200px" height="350px"
-        alt="Место нахождения Седоны">
-    </a>
   </main>
   <footer class="main-footer">
     <div class="main-footer__wrapper">
       <div class="main-footer__tag">
         <a href="#">
-          #Visitsedona
+          #visitsedona
         </a>
       </div>
       <div class="main-footer__contacts">
@@ -134,12 +137,11 @@
         </ul>
       </div>
       <div class="main-footer__copyright">
-        <b class="copyright__text">разработанно</b>
+        <b class="copyright__text">Разработано</b>
         <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"></a>
       </div>
     </div>
   </footer>
-
 </body>
 
 </html>
