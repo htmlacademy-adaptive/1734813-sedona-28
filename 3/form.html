@@ -10,12 +10,12 @@
 
 <body class="page__body">
   <header class="main-header">
-    <a class="main-header__logo">
-      <img class="main-header__logo-image" src="img/logotype-phone.svg" width="185" height="96" alt="логотип Седона">
+    <a class="main-header__logo" href="index.html">
+      <img class="main-header__logo-image" src="../images/logo.svg" width="185" height="96" alt="логотип Седона">
     </a>
     <nav class="main-nav">
-      <button class="main-nav__toogle" type="button">
-        <span class="vissualy-hidden">Открыть меню</span>
+      <button class="main-nav__toggle" type="button">
+        <span class="visualy-hidden">Открыть меню</span>
       </button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__menu site-menu">
@@ -35,131 +35,116 @@
             </a>
           </li>
           <li class="site-menu__item">
-            <a class="site-menu__link" href="academy.html">
+            <a class="site-menu__link" href="https://htmlacademy.ru/study">
               HTMl Academy
             </a>
-          </li>
-          <li class="site-menu__item">
-            <img class="site-menu__background" src="../images/back-form.jpg" width="900" height="390"
-              alt="Задний фон седоны">
           </li>
         </ul>
       </div>
     </nav>
+    <div class="site-menu__item">
+      <img class="site-menu__background" src="../images/back.jpg" width="900" height="390" alt="Задний фон седоны">
+    </div>
   </header>
   <main class="main-container">
     <section class="feedback">
-      <h1 class="feedback__title">
-        Оставьте свой отзыв
-      </h1>
-      <p class="feedback__text">
-        Помогите нашим отелям стать лучше! оставьте отзыв о них,а также о посещенных вами достопримечательностях
-      </p>
-    </section>
-    <section>
-      <div class="data">
-        <h2 class="data__title">Представьтесь:</h2>
-        <p class="data__name">Имя*:</p>
-        <input class="name" placeholder="Ваше имя" type="text" required>
-      </div>
-      <div class="data">
-        <p class="data__name">Фамилия*:</p>
-        <input class="name" placeholder="Ваша Фамилия" type="text" required>
-      </div>
-      <div class="data">
-        <p class="data__name">Отчество*:</p>
-        <input class="name" placeholder="Ваше Отчество" type="text" required>
-      </div>
-    </section>
-    <section>
-      <form class="form" action="https://echo.htmlacademy.ru/">
-        <div class="form__contact">
+      <form class="feedback__form" action="https://echo.htmlacademy.ru/">
+        <h1 class="feedback__title">
+          Оставьте свой отзыв
+        </h1>
+        <p class="feedback__text">
+          Помогите нашим отелям стать лучше! оставьте отзыв о них,а также о посещенных вами достопримечательностях
+        </p>
+        <section class="data">
+          <h2 class="data__title">Представьтесь:</h2>
+          <p class="data__name">Имя*:</p>
+          <input class="name" placeholder="Ваше имя" type="text" required>
+          <p class="data__name">Фамилия*:</p>
+          <input class="name" placeholder="Ваша Фамилия" type="text" required>
+          <p class="data__name">Отчество*:</p>
+          <input class="name" placeholder="Ваше Отчество" type="text" required>
+        </section>
+        <section class="contact">
           <h2 class="contact__title">Контактная информация:</h2>
           <label class="contact__name">
             Контактный телефон*:
-            <input class="number" placeholder="Введите телефон" type="tel" required>
+            <input class="contact__number" placeholder="Введите телефон" type="tel" required>
           </label>
-        </div>
-        <div class="contact">
           <label class="contact__name">
             Электронная почта*:
-            <input class="mail" placeholder="Введите e-mail" type="email" required>
+            <input class="contact__mail" placeholder="Введите e-mail" type="email" required>
           </label>
-        </div>
-        <div class="test">
+        </section>
+        <section class="test">
           <h2 class="test__title">
             Ваше общее впечатление:
           </h2>
-          <label class="test__label" for="positive">
-            <input class="test__input" id="positive" type="radio" name="reaction" value="positive" checked>
+          <label class="test__label">
+            <input class="test__input" type="radio" name="reaction" value="positive" checked>
             Скорее положительное
           </label>
-          <label class="test__label" for="negative">
-            <input class="test__input" id="negative" type="radio" name="reaction" value="negative">
+          <label class="test__label">
+            <input class="test__input" type="radio" name="reaction" value="negative">
             Скорее отрицательное
           </label>
-          <label class="test__label" for="idk">
-            <input class="test__input" id="idk" type="radio" name="reaction" value="idk">
+          <label class="test__label">
+            <input class="test__input" type="radio" name="reaction" value="idk">
             Затрудняюсь ответить
           </label>
-        </div>
-        <div class="attractions">
-          <h2 class="attractions__title">
+        </section>
+        <section class="test">
+          <h2 class="test__title">
             Посещенные достопримечательности:
           </h2>
-          <label class="attractionsx__label" for="bridge">
-            <input class="attractions__input" id="bridge" type="checkbox" name="bridge" checked>
+          <label class="test__label">
+            <input class="test__input" type="checkbox" name="bridge" checked>
             Мост Дьявола
           </label>
-          <label class="attractionsx__label" for="mountain">
-            <input class="attractions__input" id="mountain" type="checkbox" name="mountain" checked>
+          <label class="test__label">
+            <input class="test__input" type="checkbox" name="mountain" checked>
             Гора-Колокол
           </label>
-          <label class="attractionsx__label" for="park">
-            <input class="attractions__input" id="park" type="checkbox" name="park" checked>
+          <label class="test__label">
+            <input class="test__input" type="checkbox" name="park" checked>
             Слайд-парк
           </label>
-          <label class="attractionsx__label" for="rocks">
-            <input class="attractions__input" id="rocks" type="checkbox" name="rocks">
+          <label class="test__label">
+            <input class="test__input" type="checkbox" name="rocks">
             Красные скалы
           </label>
-        </div>
-        <div class="emotion">
-          <h2 class="emotion__title">
+        </section>
+        <section class="test">
+          <h2 class="test__title">
             Опишите свои эмоции:
           </h2>
-          <textarea class="emotion__text" placeholder="Опишите подробно все свои восторги" required></textarea>
-          <button class="emotion__button">Отправить отзыв</button>
-          <p class="emotion__mandatory">* — обязательные поля</p>
-        </div>
+          <textarea class="test__text" placeholder="Опишите подробно все свои восторги"></textarea>
+          <button class="test__button">Отправить отзыв</button>
+          <p class="test__mandatory">* — обязательные поля</p>
+        </section>
       </form>
     </section>
   </main>
   <footer class="main-footer">
-    <div class="main-footer__wrapper">
-      <div class="main-footer__tag">
-        <a href="#">
-          #visitsedona
-        </a>
-      </div>
-      <div class="main-footer__contacts">
-        <ul class="socia__list">
-          <li class="social__item">
-            <a class="social_link" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
-          </li>
-          <li class="social__item">
-            <a class="social_link" href="https://t.me/htmlacademy">Мы в Телеграме</a>
-          </li>
-          <li class="social__item">
-            <a class="social_link" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
-          </li>
-        </ul>
-      </div>
-      <div class="main-footer__copyright">
-        <b class="copyright__text">Разработано</b>
-        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"></a>
-      </div>
+    <div class="main-footer__tag">
+      <a href="#">
+        #visitsedona
+      </a>
     </div>
+    <ul class="main-footer__list">
+      <li class="main-footer__item">
+        <a class="main-footer__link" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+      </li>
+      <li class="main-footer__item">
+        <a class="main-footer__link" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+      </li>
+      <li class="main-footer__item">
+        <a class="main-footer__link" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
+      </li>
+    </ul>
+    <a class="main-footer__academy" href="https://htmlacademy.ru/intensive/adaptive">
+    </a>
+    <img class="main-footer__logo" src="img/htlmacademy.svg" width="27" height="34" alt="Где разработан сайт">
+    Разработано
   </footer>
 </body>
 
