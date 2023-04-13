@@ -10,10 +10,10 @@
 <body class="page__body">
   <header class="main-header">
     <a class="main-header__logo" href="index.html">
-      <img class="main-header__logo-image" src="img/logotype-phone.svg" width="185" height="96" alt="логотип Седона">
+      <img class="main-header__logo-image" src="../images/logo.svg" width="185" height="96" alt="логотип Седона">
     </a>
     <nav class="main-nav">
-      <button class="main-nav__toogle" type="button">
+      <button class="main-nav__toggle" type="button">
         <span class="visualy-hidden">Открыть меню</span>
       </button>
       <div class="main-nav__wrapper">
@@ -34,16 +34,16 @@
             </a>
           </li>
           <li class="site-menu__item">
-            <a class="site-menu__link" href="academy.html">
+            <a class="site-menu__link" href="https://htmlacademy.ru/study">
               HTMl Academy
             </a>
-          </li>
-          <li class="site-menu__item">
-            <img class="site-menu__background" src="../images/back-index.jpg" width="900" height="390" alt="Задний фон седоны">
           </li>
         </ul>
       </div>
     </nav>
+    <div class="site-menu__item">
+      <img class="site-menu__background" src="../images/text-sedona.svg" width="282" height="214" alt="Текст Седоны">
+    </div>
   </header>
   <main class="main-container">
     <h1 class="visualy-hidden">Седона - "По истине уютный городок"
@@ -60,31 +60,33 @@
             <p class="advantages__info">Седона — не аттракцион для туристов, там течёт своя
               жизнь</p>
           </div>
-          <img class="advantages--image__town" src="images/sedona-city.jpg" width="520" height="260"
+          <img class="advantages--image__town" src="../images/sedona-city.jpg" width="520" height="260"
             alt="Архитектура Седоны">
         </li>
-        <li class="conditions">
-          <h3 class="conditions__title">Жильё</h3>
-          <p class="conditions__housing">Рекомендуем пожить в настоящем мотеле, всё как в
-            кино!
-          </p>
-        </li>
-        <li class="conditions">
-          <h3 class="conditions__title">Еда</h3>
-          <p class="conditions__food">Всегда заказывайте топовый фирменный бургер, вы не
-            разочаруетесь!
-          </p>
-        </li>
-        <li class="conditions">
-          <h3 class="conditions__title">Сувениры</h3>
-          <p class="conditions__present">Не только китайского, но и настоящего местного
-            производства!</p>
-        </li>
+        <div class="services">
+          <li class="services__conditions">
+            <h3 class="conditions__title">Жильё</h3>
+            <p class="conditions__housing">Рекомендуем пожить в настоящем мотеле, всё как в
+              кино!
+            </p>
+          </li>
+          <li class="conditions">
+            <h3 class="conditions__title">Еда</h3>
+            <p class="conditions__food">Всегда заказывайте топовый фирменный бургер, вы не
+              разочаруетесь!
+            </p>
+          </li>
+          <li class="conditions">
+            <h3 class="conditions__title">Сувениры</h3>
+            <p class="conditions__present">Не только китайского, но и настоящего местного
+              производства!</p>
+          </li>
+        </div>
         <li class="advantages">
-          <img class="advantages__image__canyon" src="images/photo-canyon.jpg" width="520" height="260"
+          <img class="advantages__image__canyon" src="../images/photo-canyon.jpg" width="520" height="260"
             alt="Каньон Седоны">
           <div class="advantages__wrapper">
-            <h3 class="advantages__title">Там естьмост дьявола</h3>
+            <h3 class="advantages__title">Там есть мост дьявола</h3>
             <p class="advantages__info">Да, по нему можно пройти! Если вы осмелитесь, разумеется
             </p>
           </div>
@@ -104,42 +106,40 @@
       </ul>
     </section>
     <section class="interested">
-      <h3 class="interested__title">Заинтересовались?</h3>
-      <p class="interested__info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц
-        в Седоне
-      </p>
+      <div class="interested__block">
+        <h3 class="interested__title">Заинтересовались?</h3>
+        <p class="interested__info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц
+          в Седоне
+        </p>
+      </div>
       <a class="interested__hotel" href="#">Найти гостниницу</a>
       <a class="interested__map">
-        <img class="interested__map-image" src="img/map-sedona.svg" width="320" height="350"
+        <img class="interested__map-image" src="../images/map-sedona.jpg" width="320" height="350"
           alt="Место нахождения Седоны">
       </a>
     </section>
   </main>
   <footer class="main-footer">
-    <div class="main-footer__wrapper">
-      <div class="main-footer__tag">
-        <a href="#">
-          #visitsedona
-        </a>
-      </div>
-      <div class="main-footer__contacts">
-        <ul class="socia__list">
-          <li class="social__item">
-            <a class="social_link" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
-          </li>
-          <li class="social__item">
-            <a class="social_link" href="https://t.me/htmlacademy">Мы в Телеграме</a>
-          </li>
-          <li class="social__item">
-            <a class="social_link" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
-          </li>
-        </ul>
-      </div>
-      <div class="main-footer__copyright">
-        <b class="copyright__text">Разработано</b>
-        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"></a>
-      </div>
+    <div class="main-footer__tag">
+      <a href="#">
+        #visitsedona
+      </a>
     </div>
+    <ul class="main-footer__list">
+      <li class="main-footer__item">
+        <a class="main-footer__link" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+      </li>
+      <li class="main-footer__item">
+        <a class="main-footer__link" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+      </li>
+      <li class="main-footer__item">
+        <a class="main-footer__link" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
+      </li>
+    </ul>
+    <a class="main-footer__academy" href="https://htmlacademy.ru/intensive/adaptive">
+    </a>
+    <img class="main-footer__logo" src="../images/htmlacademy.svg" width="27" height="34" alt="Где разработан сайт">
+    Разработано
   </footer>
 </body>
 

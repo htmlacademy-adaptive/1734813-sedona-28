@@ -10,10 +10,10 @@
 <body class="page__body">
   <header class="main-header">
     <a class="main-header__logo" href="index.html">
-      <img class="main-header__logo-image" src="img/logotype-phone.svg" width="185" height="96" alt="логотип Седона">
+      <img class="main-header__logo-image" src="../images/logo.svg" width="185" height="96" alt="логотип Седона">
     </a>
     <nav class="main-nav">
-      <button class="main-nav__toogle" type="button">
+      <button class="main-nav__toggle" type="button">
         <span class="visualy-hidden">Открыть меню</span>
       </button>
       <div class="main-nav__wrapper">
@@ -34,17 +34,16 @@
             </a>
           </li>
           <li class="site-menu__item">
-            <a class="site-menu__link" href="academy.html">
-              HTML Academy
+            <a class="site-menu__link" href="https://htmlacademy.ru/study">
+              HTMl Academy
             </a>
-          </li>
-          <li class="site-menu__item">
-            <img class="site-menu__background" src="../images/back-catalog.jpg" width="900" height="390"
-              alt="Задний фон седоны">
           </li>
         </ul>
       </div>
     </nav>
+    <div class="site-menu__item">
+      <img class="site-menu__background" src="../images/back.jpg" width="900" height="390" alt="Задний фон седоны">
+    </div>
   </header>
   <main class="main-container">
     <section class="main-info-block">
@@ -86,12 +85,14 @@
       </ul>
     </section>
     <section class="main-info-block">
-      <h1 class="main-info-block__title">
-        Вы еще сомневаетесь?
-      </h1>
-      <p class="main-info-block__slogan">
-        Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!
-      </p>
+      <div class="main-info-block__doubts">
+        <h2 class="main-info-block__title">
+          Вы еще сомневаетесь?
+        </h2>
+        <p class="main-info-block__slogan">
+          Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!
+        </p>
+      </div>
       <h2 class="visually-hidden">Видео про Седону</h2>
       <img class="video-info" src="images/video.jpg" width="280" height="177" alt="Видео про Седону">
     </section>
@@ -102,21 +103,21 @@
         #visitsedona
       </a>
     </div>
-    <ul class="social__list">
-      <li class="social__item">
-        <a class="social__link" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+    <ul class="main-footer__list">
+      <li class="main-footer__item">
+        <a class="main-footer__link" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
       </li>
-      <li class="social__item">
-        <a class="social__link" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+      <li class="main-footer__item">
+        <a class="main-footer__link" href="https://t.me/htmlacademy">Мы в Телеграме</a>
       </li>
-      <li class="social__item">
-        <a class="social__link" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
+      <li class="main-footer__item">
+        <a class="main-footer__link" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
       </li>
     </ul>
-    <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-      <img class="footer-logo" src="img/htlmacademy.svg" width="27" height="34" alt="Где разработан сайт">
-      Разработано
+    <a class="main-footer__academy" href="https://htmlacademy.ru/intensive/adaptive">
     </a>
+    <img class="main-footer__logo" src="img/htlmacademy.svg" width="27" height="34" alt="Где разработан сайт">
+    Разработано
   </footer>
 </body>
 
