@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML Academy: Седона</title>
+</head>
+
+<body class="page__body">
+  <header class="main-header">
+    <a class="main-header__logo" href="index.html">
+      <img class="main-header__logo-image" src="../images/logo.svg" width="185" height="96" alt="логотип Седона">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        <span class="visualy-hidden">Открыть меню</span>
+      </button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__menu site-menu">
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="index.html">
+              Главная
+            </a>
+          </li>
+          <li class="site-menu__item site-menu__item--current">
+            <a class="site-menu__link" href="catalog.html">
+              Фото и видео
+            </a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="form.html">
+              Форма отзыва
+            </a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="https://htmlacademy.ru/study">
+              HTMl Academy
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="main-container">
+    <section class="section-intro">
+      <h1 class="visualy-hidden">Седона - "По истине уютный городок"
+      </h1>
+      <img class="section-intro__background" src="../images/sedona.svg" width="282" height="214"
+        alt="Текст Седоны">
+    </section>
+    <form class="form" action="https://echo.htmlacademy.ru/">
+      <h1 class="general-section-heading">
+        Оставьте свой отзыв
+      </h1>
+      <p class="general-section-paragraph">
+        Помогите нашим отелям стать лучше! оставьте отзыв о них,а также о посещенных вами достопримечательностях
+      </p>
+      <section class="form__section">
+        <h2 class="form__section-title">Представьтесь:</h2>
+        <label class="form__label">
+          Имя*:
+          <input class="form__input input" placeholder="Ваше имя" type="text" required>
+        </label>
+        <label class="form__label">
+          Фамилия*:
+          <input class="form__input input" placeholder="Ваша Фамилия" type="text" required>
+        </label>
+        <label class="form__label">
+          Отчество*:
+          <input class="form__input input" placeholder="Ваше Отчество" type="text" required>
+        </label>
+      </section>
+      <section class="form__section">
+        <h2 class="form__section-title">Контактная информация:</h2>
+        <label class="form__label">
+          Контактный телефон*:
+          <input class="form__input input" name="phone-number" placeholder="Введите телефон" type="tel" required>
+        </label>
+        <label class="form__label">
+          Электронная почта*:
+          <input class="form__input input" name="e-mail" placeholder="Введите e-mail" type="email" required>
+        </label>
+      </section>
+      <section class="form__section">
+        <h2 class="test__title">
+          Ваше общее впечатление:
+        </h2>
+        <label class="test__label">
+          <input class="test__input" type="radio" name="reaction" value="positive" checked>
+          Скорее положительное
+        </label>
+        <label class="test__label">
+          <input class="test__input" type="radio" name="reaction" value="negative">
+          Скорее отрицательное
+        </label>
+        <label class="test__label">
+          <input class="test__input" type="radio" name="reaction" value="not-sure">
+          Затрудняюсь ответить
+        </label>
+      </section>
+      <section class="form__section">
+        <h2 class="test__title">
+          Посещенные достопримечательности:
+        </h2>
+        <label class="test__label">
+          <input class="test__input" type="checkbox" name="bridge" checked>
+          Мост Дьявола
+        </label>
+        <label class="test__label">
+          <input class="test__input" type="checkbox" name="mountain" checked>
+          Гора-Колокол
+        </label>
+        <label class="test__label">
+          <input class="test__input" type="checkbox" name="park" checked>
+          Слайд-парк
+        </label>
+        <label class="test__label">
+          <input class="test__input" type="checkbox" name="rocks">
+          Красные скалы
+        </label>
+      </section>
+      <section class="test">
+        <h2 class="test__title">
+          Опишите свои эмоции:
+        </h2>
+        <textarea class="test__text" placeholder="Опишите подробно все свои восторги"></textarea>
+        <button class="test__button">Отправить отзыв</button>
+        <p class="test__mandatory">* — обязательные поля</p>
+      </section>
+    </form>
+  </main>
+  <footer class="main-footer">
+    <a href="#">
+      #visitsedona
+    </a>
+    <ul class="main-footer__list">
+      <li class="main-footer__item">
+        <a class="main-footer__link" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+      </li>
+      <li class="main-footer__item">
+        <a class="main-footer__link" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+      </li>
+      <li class="main-footer__item">
+        <a class="main-footer__link" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
+      </li>
+    </ul>
+    <a class="main-footer__academy" href="https://htmlacademy.ru/intensive/adaptive">
+      Разработано
+      <img class="main-footer__logo" src="img/htlmacademy.svg" width="27" height="34" alt="Где разработан сайт">
+    </a>
+  </footer>
+</body>
+
+</html>
