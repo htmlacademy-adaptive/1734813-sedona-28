@@ -41,94 +41,99 @@
         </ul>
       </div>
     </nav>
-    <div class="site-menu__item">
-      <img class="site-menu__background" src="../images/back.jpg" width="900" height="390" alt="Задний фон седоны">
-    </div>
   </header>
   <main class="main-container">
-    <section class="feedback">
-      <form class="feedback__form" action="https://echo.htmlacademy.ru/">
-        <h1 class="feedback__title">
-          Оставьте свой отзыв
-        </h1>
-        <p class="feedback__text">
-          Помогите нашим отелям стать лучше! оставьте отзыв о них,а также о посещенных вами достопримечательностях
-        </p>
-        <section class="data">
-          <h2 class="data__title">Представьтесь:</h2>
-          <p class="data__name">Имя*:</p>
-          <input class="name" placeholder="Ваше имя" type="text" required>
-          <p class="data__name">Фамилия*:</p>
-          <input class="name" placeholder="Ваша Фамилия" type="text" required>
-          <p class="data__name">Отчество*:</p>
-          <input class="name" placeholder="Ваше Отчество" type="text" required>
-        </section>
-        <section class="contact">
-          <h2 class="contact__title">Контактная информация:</h2>
-          <label class="contact__name">
-            Контактный телефон*:
-            <input class="contact__number" placeholder="Введите телефон" type="tel" required>
-          </label>
-          <label class="contact__name">
-            Электронная почта*:
-            <input class="contact__mail" placeholder="Введите e-mail" type="email" required>
-          </label>
-        </section>
-        <section class="test">
-          <h2 class="test__title">
-            Ваше общее впечатление:
-          </h2>
-          <label class="test__label">
-            <input class="test__input" type="radio" name="reaction" value="positive" checked>
-            Скорее положительное
-          </label>
-          <label class="test__label">
-            <input class="test__input" type="radio" name="reaction" value="negative">
-            Скорее отрицательное
-          </label>
-          <label class="test__label">
-            <input class="test__input" type="radio" name="reaction" value="idk">
-            Затрудняюсь ответить
-          </label>
-        </section>
-        <section class="test">
-          <h2 class="test__title">
-            Посещенные достопримечательности:
-          </h2>
-          <label class="test__label">
-            <input class="test__input" type="checkbox" name="bridge" checked>
-            Мост Дьявола
-          </label>
-          <label class="test__label">
-            <input class="test__input" type="checkbox" name="mountain" checked>
-            Гора-Колокол
-          </label>
-          <label class="test__label">
-            <input class="test__input" type="checkbox" name="park" checked>
-            Слайд-парк
-          </label>
-          <label class="test__label">
-            <input class="test__input" type="checkbox" name="rocks">
-            Красные скалы
-          </label>
-        </section>
-        <section class="test">
-          <h2 class="test__title">
-            Опишите свои эмоции:
-          </h2>
-          <textarea class="test__text" placeholder="Опишите подробно все свои восторги"></textarea>
-          <button class="test__button">Отправить отзыв</button>
-          <p class="test__mandatory">* — обязательные поля</p>
-        </section>
-      </form>
+    <section class="section-intro">
+      <h1 class="visualy-hidden">Седона - "По истине уютный городок"
+      </h1>
+      <img class="section-intro__background" src="../images/sedona.svg" width="282" height="214"
+        alt="Текст Седоны">
     </section>
+    <form class="form" action="https://echo.htmlacademy.ru/">
+      <h1 class="general-section-heading">
+        Оставьте свой отзыв
+      </h1>
+      <p class="general-section-paragraph">
+        Помогите нашим отелям стать лучше! оставьте отзыв о них,а также о посещенных вами достопримечательностях
+      </p>
+      <section class="form__section">
+        <h2 class="form__section-title">Представьтесь:</h2>
+        <label class="form__label">
+          Имя*:
+          <input class="form__input input" placeholder="Ваше имя" type="text" required>
+        </label>
+        <label class="form__label">
+          Фамилия*:
+          <input class="form__input input" placeholder="Ваша Фамилия" type="text" required>
+        </label>
+        <label class="form__label">
+          Отчество*:
+          <input class="form__input input" placeholder="Ваше Отчество" type="text" required>
+        </label>
+      </section>
+      <section class="form__section">
+        <h2 class="form__section-title">Контактная информация:</h2>
+        <label class="form__label">
+          Контактный телефон*:
+          <input class="form__input input" name="phone-number" placeholder="Введите телефон" type="tel" required>
+        </label>
+        <label class="form__label">
+          Электронная почта*:
+          <input class="form__input input" name="e-mail" placeholder="Введите e-mail" type="email" required>
+        </label>
+      </section>
+      <section class="form__section">
+        <h2 class="test__title">
+          Ваше общее впечатление:
+        </h2>
+        <label class="test__label">
+          <input class="test__input" type="radio" name="reaction" value="positive" checked>
+          Скорее положительное
+        </label>
+        <label class="test__label">
+          <input class="test__input" type="radio" name="reaction" value="negative">
+          Скорее отрицательное
+        </label>
+        <label class="test__label">
+          <input class="test__input" type="radio" name="reaction" value="not-sure">
+          Затрудняюсь ответить
+        </label>
+      </section>
+      <section class="form__section">
+        <h2 class="test__title">
+          Посещенные достопримечательности:
+        </h2>
+        <label class="test__label">
+          <input class="test__input" type="checkbox" name="bridge" checked>
+          Мост Дьявола
+        </label>
+        <label class="test__label">
+          <input class="test__input" type="checkbox" name="mountain" checked>
+          Гора-Колокол
+        </label>
+        <label class="test__label">
+          <input class="test__input" type="checkbox" name="park" checked>
+          Слайд-парк
+        </label>
+        <label class="test__label">
+          <input class="test__input" type="checkbox" name="rocks">
+          Красные скалы
+        </label>
+      </section>
+      <section class="test">
+        <h2 class="test__title">
+          Опишите свои эмоции:
+        </h2>
+        <textarea class="test__text" placeholder="Опишите подробно все свои восторги"></textarea>
+        <button class="test__button">Отправить отзыв</button>
+        <p class="test__mandatory">* — обязательные поля</p>
+      </section>
+    </form>
   </main>
   <footer class="main-footer">
-    <div class="main-footer__tag">
-      <a href="#">
-        #visitsedona
-      </a>
-    </div>
+    <a href="#">
+      #visitsedona
+    </a>
     <ul class="main-footer__list">
       <li class="main-footer__item">
         <a class="main-footer__link" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
@@ -141,9 +146,9 @@
       </li>
     </ul>
     <a class="main-footer__academy" href="https://htmlacademy.ru/intensive/adaptive">
+      Разработано
+      <img class="main-footer__logo" src="img/htlmacademy.svg" width="27" height="34" alt="Где разработан сайт">
     </a>
-    <img class="main-footer__logo" src="img/htlmacademy.svg" width="27" height="34" alt="Где разработан сайт">
-    Разработано
   </footer>
 </body>
 
